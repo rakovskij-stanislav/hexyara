@@ -22,7 +22,8 @@ hexyara.py yara <count_of_extra_symbols> <your_yara_command>
 ### Examples:
 In this example I will use compiled the newest version as a demonstration of use non-system yara. You can use any yara.
 ```bash
-> ./pyinstaller_matches/1
+> hexyara.py ./yara-4.0.5/yara ./pyinstaller_rule.yar -r ./pyinstaller_matches/
+./pyinstaller_matches//1
 0x22240:$zip:25
 00022240  25 73 25 63 62 61 73 65  5f 6c 69 62 72 61 72 79 |%s%cbase_library|
 00022250  2e 7a 69 70 25 63 25 73  00 00 00 00 00 00 00 00 |.zip%c%s........|
